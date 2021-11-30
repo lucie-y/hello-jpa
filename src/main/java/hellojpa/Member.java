@@ -8,11 +8,21 @@ import javax.persistence.Table;
 @Entity // JPA 사용 인식
 //@Table(name = "USER")
 public class Member {
+    // JPA는 내부적으로 REFLECTION같은 걸 사용
+    // 동적으로 객체를 생성해야 함.
+    // 그래서 기본 생성자가 필요.
 
     @Id // javax.persistence
     private Long id;
-//    @Column(name = "username")
     private String name;
+
+    public Member() {
+    }
+
+    public Member(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
     public Long getId() {
         return id;
