@@ -16,3 +16,7 @@ Java ORM Standard JPA Programming - Basics
 - 영속성 컨텍스트
 - 플러시
 - 준영속 상태
+
+**SECTION 4. 엔티티 매핑 [Notion](https://lucie-ko.notion.site/4-e5ab004143db4b66be0a24b0cb1fbf30)**
+- 객체와 테이블 매핑
+- 데이터베이스 스키마 자동 생성
