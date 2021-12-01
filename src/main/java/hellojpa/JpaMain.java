@@ -20,7 +20,7 @@ public class JpaMain {
 
             // 영속
             Member member = em.find(Member.class, 150L);
-            member.setName("AAAAAA");
+            member.setName("AAAAA");
 
             em.clear();
 
